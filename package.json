@@ -1,18 +1,22 @@
 {
-  "name": "base64",
-  "main": "./lib/base64",
-  "version": "0.3.0",
-  "description": "A Base64 encoder and decoder",
+  "name": "allyourbase",
+  "main": "./lib/base",
+  "version": "1.0.0",
+  "description": "A BaseX encoder and decoder",
   "activationCommands": {
     "atom-workspace": [
       "base64:encode",
-      "base64:decode"
+      "base64:decode",
+      "base58:encode",
+      "base58:decode"
     ]
   },
-  "repository": "https://github.com/mmattozzi/atom-base64",
+  "repository": "https://github.com/briansneddon/atom-allyourbase",
   "license": "MIT",
   "engines": {
     "atom": ">0.210.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "simple-base": "^0.2.0"
+  }
 }
