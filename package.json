@@ -1,7 +1,7 @@
 {
   "name": "allyourbase",
   "main": "./lib/base",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A BaseX encoder and decoder",
   "activationCommands": {
     "atom-workspace": [
